@@ -1,23 +1,31 @@
 .head {
     width: 100%;
-    min-height: 900px;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../src/assets/head-back.png");
+    background-position: center;
     background-size: cover;
-    display:block;
     color: white;
 }
 
 .logo {
     padding: 40px;
-    font-family: "Rubik Mono One", sans-serif;
-    /*font-weight: 900;*/
     font-size: 20px;
 }
 
-.central-name {
-    font-size: 50px;
-    margin-bottom: 300px;
-    margin-top: 200px;
+@media only screen and (max-height: 2000px) {
+    .central-name {
+        font-size: 50px;
+        margin-bottom: 300px;
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    .central-name {
+        font-size: 40px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
 }
 
 .head-contacts-button {

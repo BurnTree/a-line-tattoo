@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: Rubik Mono One;
     src: url("./assets/fonts/RubikMonoOne-Regular.ttf");
@@ -18,6 +17,5 @@ body {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    display:block;
     text-align: center;
 }
