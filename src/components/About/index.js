@@ -3,12 +3,13 @@ import {Col, Row} from "antd";
 import avatar from "../../assets/bogd.jpg"
 import "./about.css"
 
-const About = () => (
-    <div className="about">
+const About = () => {
+    const width = window.innerWidth;
+    return <div className="about">
         <Row>
             <Col lg={12}>
                 <div className="center-container">
-                    <img alt="master" width={400} src={avatar}/>
+                    <img alt="master" width={(width > 700) ? 400 : width/2} src={avatar}/>
                 </div>
             </Col>
             <Col lg={12}>
@@ -20,6 +21,6 @@ const About = () => (
             </Col>
         </Row>
     </div>
-)
+}
 
 export default About;
