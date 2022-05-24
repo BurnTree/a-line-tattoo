@@ -1,6 +1,6 @@
 import React from 'react';
 import {Col, Row} from "antd";
-import avatar from "../../assets/bogd.jpg"
+import avatar from "../../assets/tatoo-master.jpg"
 import "./about.css"
 
 const About = () => {
@@ -15,8 +15,11 @@ const About = () => {
             <Col lg={12}>
                 <div className="about-text">
                     <h2>О мастере</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sit id in nunc, velit interdum
-                    adipiscing. Уlit. Consectetur sit id in nunc, velit interdum adipiscing.
+                    <p>Всем привет 👋</p>
+                    <p>
+                        Меня зовут Алена, я мастер тату с опытом работы 4 года.
+                        Работаю во многих стилях. Ниже смотрите мои работы 😉
+                    </p>
                 </div>
             </Col>
         </Row>

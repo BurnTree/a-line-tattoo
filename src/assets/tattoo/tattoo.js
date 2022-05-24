@@ -5,9 +5,7 @@ import image4 from "./4.jpg"
 import image5 from "./5.jpg"
 import image6 from "./6.jpg"
 import image7 from "./7.jpg"
-import image8 from "./8.jpg"
 import image9 from "./9.jpg"
-import image10 from "./10.jpg"
 import image11 from "./11.jpg"
 import image12 from "./12.jpg"
 import image13 from "./13.jpg"
@@ -49,19 +47,11 @@ export default [{
     src: image7,
     width: 6,
     height: 8,
-},{
-    src: image8,
-    width: 6,
-    height: 8,
 }, {
     src: image9,
     width: 6,
     height: 8,
 }, {
-    src: image10,
-    width: 6,
-    height: 6,
-},{
     src: image11,
     width: 8,
     height: 8,
