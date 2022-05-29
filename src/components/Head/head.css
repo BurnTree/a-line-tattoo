@@ -12,7 +12,7 @@
     font-size: 20px;
 }
 
-@media only screen and (max-height: 2000px) {
+@media only screen and (max-device-width: 2000px) {
     .central-name {
         font-size: 50px;
         margin-bottom: 300px;
@@ -20,14 +20,19 @@
     }
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-device-width: 700px) {
     .central-name {
-        font-size: 40px;
-        margin-bottom:50px;
-        margin-top: 50px;
+        font-size: 50px;
+        margin-bottom: 200px;
+        margin-top: 200px;
     }
 }
 
 .head-contacts-button {
     margin: 0 5px;
+}
+
+.head-contacts {
+    position: absolute;
+    bottom: 0;
 }
